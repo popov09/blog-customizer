@@ -5,6 +5,7 @@ import { Button } from 'src/ui/button';
 import { Text } from 'src/ui/text';
 import { Select } from 'src/ui/select';
 import { RadioGroup } from 'src/ui/radio-group';
+import { Separator } from 'src/ui/separator';
 import {
 	ArticleStateType,
 	fontFamilyOptions,
@@ -102,6 +103,7 @@ export const ArticleParamsForm = ({
 							}))
 						}
 					/>
+					<Separator />
 					<Select
 						title='Цвет фона'
 						selected={formSettings.backgroundColor}
